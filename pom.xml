@@ -19,8 +19,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.katasoft</groupId>
-    <artifactId>beanpole</artifactId>
+    <groupId>com.katasoft.beanpole</groupId>
+    <artifactId>beanpole-root</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>BeanPole</name>
