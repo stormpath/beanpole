@@ -54,14 +54,14 @@
     </issueManagement>
     <distributionManagement>
         <repository>
-            <id>releases.repository.katasoft.com</id>
-            <name>Katasoft Release Distribution Repository</name>
-            <url>http://repository.katasoft.com/content/repositories/releases</url>
+            <id>beanpole.repository.releases</id>
+            <name>BeanPole Release Distribution Repository</name>
+            <url>${beanpole.repository.releases.url}</url>
         </repository>
         <snapshotRepository>
-            <id>snapshots.repository.katasoft.com</id>
-            <name>Katasoft Snapshot Distribution Repository</name>
-            <url>http://repository.katasoft.com/content/repositories/snapshots</url>
+            <id>beanpole.repository.snapshots</id>
+            <name>BeanPole Snapshot Distribution Repository</name>
+            <url>${beanpole.repository.snapshots.url}</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -80,6 +80,9 @@
     </modules>
 
     <properties>
+
+        <beanpole.repository.releases.url>http://repository.katasoft.com/content/repositories/releases</beanpole.repository.releases.url>
+        <beanpole.repository.snapshots.url>http://repository.katasoft.com/content/repositories/snapshots</beanpole.repository.snapshots.url>
 
         <!-- Standard Dependencies: -->
         <slf4j.version>1.6.1</slf4j.version>
