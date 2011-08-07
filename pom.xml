@@ -21,7 +21,7 @@
 
     <groupId>com.katasoft.beanpole</groupId>
     <artifactId>beanpole-root</artifactId>
-    <version>0.1-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>BeanPole</name>
     <url>https://github.com/Katasoft/beanpole/wiki</url>
@@ -45,7 +45,7 @@
 
     <scm>
         <connection>scm:git:http://github.com/Katasoft/beanpole.git</connection>
-        <developerConnection>scm:git:https://github.com/Katasoft/beanpole.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:Katasoft/beanpole.git</developerConnection>
         <url>http://github.com/Katasoft/beanpole</url>
     </scm>
     <issueManagement>
