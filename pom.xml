@@ -19,7 +19,7 @@
 
     <groupId>com.katasoft.beanpole</groupId>
     <artifactId>beanpole-root</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>BeanPole</name>
     <url>https://github.com/Katasoft/beanpole/wiki</url>
