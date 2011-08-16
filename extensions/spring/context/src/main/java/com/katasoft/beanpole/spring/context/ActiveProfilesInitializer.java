@@ -68,7 +68,7 @@ import java.util.Map;
  *
  * @since 0.1
  */
-public class ActiveProfilesInitializer implements ApplicationContextInitializer {
+public class ActiveProfilesInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {
 
     private static final Logger log = LoggerFactory.getLogger(ActiveProfilesInitializer.class);
 
