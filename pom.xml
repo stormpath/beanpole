@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright 2011 Katasoft
+  ~ Copyright 2012 Stormpath
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -17,20 +17,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.katasoft.beanpole</groupId>
+    <groupId>com.stormpath.beanpole</groupId>
     <artifactId>beanpole-root</artifactId>
     <version>0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>BeanPole</name>
-    <url>https://github.com/Katasoft/beanpole/wiki</url>
+    <url>https://github.com/stormpath/beanpole/wiki</url>
     <description>BeanPole is a software development toolkit that makes it easier to build applications that will
         be deployed to Amazon's AWS Beanstalk environment.
     </description>
     <inceptionYear>2011</inceptionYear>
 
     <organization>
-        <name>Katasoft</name>
-        <url>http://www.katasoft.com</url>
+        <name>Stormpath</name>
+        <url>http://www.stormpath.com</url>
     </organization>
 
     <licenses>
@@ -42,13 +42,13 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:http://github.com/Katasoft/beanpole.git</connection>
-        <developerConnection>scm:git:git@github.com:Katasoft/beanpole.git</developerConnection>
-        <url>http://github.com/Katasoft/beanpole</url>
+        <connection>scm:git:http://github.com/stormpath/beanpole.git</connection>
+        <developerConnection>scm:git:git@github.com:stormpath/beanpole.git</developerConnection>
+        <url>http://github.com/stormpath/beanpole</url>
     </scm>
     <issueManagement>
         <system>GitHub</system>
-        <url>http://github.com/Katasoft/beanpole/issues</url>
+        <url>http://github.com/stormpath/beanpole/issues</url>
     </issueManagement>
     <distributionManagement>
         <repository>
@@ -80,10 +80,8 @@
 
     <properties>
 
-        <beanpole.repository.releases.url>http://repository.katasoft.com/content/repositories/releases
-        </beanpole.repository.releases.url>
-        <beanpole.repository.snapshots.url>http://repository.katasoft.com/content/repositories/snapshots
-        </beanpole.repository.snapshots.url>
+        <beanpole.repository.releases.url>https://repository.stormpath.com/content/repositories/releases</beanpole.repository.releases.url>
+        <beanpole.repository.snapshots.url>https://repository.stormpath.com/content/repositories/snapshots</beanpole.repository.snapshots.url>
 
         <!-- Standard Dependencies: -->
         <guava.version>r09</guava.version>
@@ -134,7 +132,7 @@
 
             <!-- Direct libs: -->
             <dependency>
-                <groupId>com.katasoft.beanpole</groupId>
+                <groupId>com.stormpath.beanpole</groupId>
                 <artifactId>beanpole-core</artifactId>
                 <version>${project.version}</version>
             </dependency>

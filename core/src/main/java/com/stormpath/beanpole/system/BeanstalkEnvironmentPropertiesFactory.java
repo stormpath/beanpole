@@ -1,5 +1,5 @@
 /*
- * Copyright 2011 Katasoft
+ * Copyright 2012 Stormpath
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.katasoft.beanpole.system;
+package com.stormpath.beanpole.system;
 
 import com.google.common.base.CharMatcher;
 import com.google.common.base.Splitter;
 import com.google.common.base.Strings;
-import com.katasoft.beanpole.util.Factory;
+import com.stormpath.beanpole.util.Factory;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,5 +1,5 @@
 /*
- * Copyright 2011 Katasoft
+ * Copyright 2012 Stormpath
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,13 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.katasoft.beanpole.spring.context;
+package com.stormpath.beanpole.spring.context;
 
 import com.google.common.base.Joiner;
 import com.google.common.base.Splitter;
 import com.google.common.collect.Iterables;
-import com.katasoft.beanpole.system.BeanstalkEnvironmentPropertiesFactory;
-import org.omg.PortableInterceptor.ACTIVE;
+import com.stormpath.beanpole.system.BeanstalkEnvironmentPropertiesFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContextInitializer;
@@ -49,13 +48,13 @@ import java.util.Map;
  * <pre>
  * &lt;context-param&gt;
  *     &lt;param-name&gt;contextInitializerClasses&lt;/param-name&gt;
- *     &lt;param-value&gt;com.katasoft.beanpole.spring.context.ActiveProfilesInitializer&lt;/param-value&gt;
+ *     &lt;param-value&gt;com.stormpath.beanpole.spring.context.ActiveProfilesInitializer&lt;/param-value&gt;
  * &lt;/context-param&gt;
  * </pre>
  * </li>
  * <li>Ensure that you've set the {@code spring.profiles.active=}<em>VALUES_LIST</em> key=value
  * pair in one of the Beanstalk environment properties
- * <a href="https://github.com/Katasoft/beanpole/wiki/Environment-Properties">as described here</a>, where
+ * <a href="https://github.com/stormpath/beanpole/wiki/Environment-Properties">as described here</a>, where
  * <em>VALUES_LIST</em> is a <b>pipe-delimited</b> (i.e. single vertical bar) list of active profile names.
  * For example:
  * <pre>

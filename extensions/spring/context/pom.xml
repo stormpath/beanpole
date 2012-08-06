@@ -1,5 +1,5 @@
 <!--
-  ~ Copyright 2011 Katasoft
+  ~ Copyright 2012 Stormpath
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <parent>
-        <groupId>com.katasoft.beanpole</groupId>
+        <groupId>com.stormpath.beanpole</groupId>
         <artifactId>beanpole-root</artifactId>
         <version>0.2-SNAPSHOT</version>
         <relativePath>../../../pom.xml</relativePath>
@@ -29,7 +29,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.katasoft.beanpole</groupId>
+            <groupId>com.stormpath.beanpole</groupId>
             <artifactId>beanpole-core</artifactId>
         </dependency>
         <dependency>
